@@ -1,0 +1,4 @@
+src/web/vendor
+/data
+/src/web/tools
+node_modules/

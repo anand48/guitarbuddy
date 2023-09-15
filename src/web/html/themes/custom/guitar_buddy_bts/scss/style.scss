@@ -1,0 +1,25 @@
+// Sub theme styling.
+@import 'variables_drupal';
+
+// Includes Components
+@import './header/header';
+@import './layouts/landing_page';
+
+// Bootstrap overriden variables.
+// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+@import 'variables_bootstrap';
+
+// fonts
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@font-face {
+    font-family: progressFont;
+    src: url(../fonts/ProgressPersonalUse-EaJdz.ttf);
+}
+
+// Include bootstrap.
+@import '../../../../themes/contrib/bootstrap5/scss/style';
+
+.bg-dark {
+    background-color: black !important;
+}

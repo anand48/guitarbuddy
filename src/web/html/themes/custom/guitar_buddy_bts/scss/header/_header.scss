@@ -1,0 +1,21 @@
+@import '../variables_bootstrap';
+
+.region-nav-main {
+    margin: auto;
+    font-weight: 200;
+}
+
+.region-nav-additional {
+    font-weight: 200;
+}
+
+.landing-page-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    nav {
+        background-color: transparent !important;
+    }
+}
